@@ -1,5 +1,7 @@
 
 import './App.css'
+import Bottles from './components/Bottles/Bottles'
+// import Header from './components/Header/Header'
 
 function App() {
   
@@ -8,7 +10,7 @@ function App() {
     <>
      
       <h1>React bottles project</h1>
-     <p>simple react js</p>
+      <Bottles></Bottles>
     </>
   )
 }
